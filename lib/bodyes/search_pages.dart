@@ -168,9 +168,8 @@ class _SearchPageState extends State<SearchPage> {
                   Padding(
                     padding: const EdgeInsets.only(top: 28,left: 41),
                     child: Container(
-                      width: 362,
+                      width: 362, 
                       height: 30,
-                  
                       child: Text('About Doctor',
                       style: TextStyle(color: Color(0xFF263257),
                       fontSize: 20,
@@ -202,35 +201,8 @@ class _SearchPageState extends State<SearchPage> {
                       child: 
                       Column(
                         children: [
-                         Row(
-                           children: [
-                             Padding(
-                               padding: const EdgeInsets.only(
-                                left: 21,
-                               ),
-                               child: Text('Schedules',style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.w500,
-                                 color: Color(0xFF263257)
-                                  ),
-                                  ),
-                             ),
-                             SizedBox(width: 161,),
-                             Text('August',style: TextStyle(
-                              fontWeight: FontWeight.w500,
-                              fontSize: 12,
-                              color: Color(0xFF8A96BC)
-                             ),
-                             ),
-                             SizedBox(
-                              width: 9,
-                             ),
-                             Icon(Icons.arrow_forward_ios_outlined,
-                             size: 10,color: Color(0xFF222E54
-                           ),
-                           ) 
-                           ],
-                         ),
+                        // 6zgartirish kiritish
+                        // 6zgartirish kiritildi
                          Padding(
                            padding: const EdgeInsets.symmetric(vertical: 20),
                            child: Row(
